@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap">
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <form action="">
+    <h2>
+     Cadastro
+    </h2>
+
+    <div class="input">
+      <input required type="text" />
+      <label>Nome</label>
+      <span class="error"></span>
+    </div>
+
+
+    <div class="input">
+      <input required type="email" />
+      <label>Email</label>
+      <span class="error"></span>
+    </div>
+    <div class="input">
+        <input required type="Senha"  minlength="8" maxlength="20" required />
+        <label>Senha (8 Caracteres Minimo)</label>
+        <span class="error"></span>
+    </div>
+        <div class="input">
+            <input required type="CPF"  minlength="11" maxlength="11" required />
+            <label>CPF</label>
+            <span class="error"></span>
+        </div> 
+        <button type="submit">Enviar </button>
+  </form>
+  
+</body>
+
+</html>
